@@ -26,3 +26,5 @@ F:\TANFOLYAM\C#Wpf\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\UserAdmin.pdb
 F:\TANFOLYAM\C#Wpf\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\UserAdmin.genruntimeconfig.cache
 F:\TANFOLYAM\C#Wpf\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\ref\UserAdmin.dll
 F:\TANFOLYAM\C#Wpf\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\App.baml
+F:\TANFOLYAM\C#Wpf\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\Views\RegisterPage.g.cs
+F:\TANFOLYAM\C#Wpf\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\Views\RegisterPage.baml
