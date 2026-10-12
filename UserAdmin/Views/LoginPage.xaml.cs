@@ -19,9 +19,11 @@ namespace UserAdmin.Views
     /// </summary>
     public partial class LoginPage : Page
     {
+        private readonly UserDbService _userDbService = new();
         public LoginPage()
         {
             InitializeComponent();
+
         }
 
         private void LoginButton_Click(object sender, RoutedEventArgs e)
@@ -33,6 +35,24 @@ namespace UserAdmin.Views
             {
                 ShowError("Érvénytelen email vagy jelszó.");
             }
+
+            var user = _userDbService.FindByEmail(email);
+
+            if (user is null)
+            {
+                ShowError("Nem regisztrált tag.");
+                return;
+            }
+            else if (user.Email == email && user.Password == password)
+            {
+                NavigationService.Navigate(new MembersPage());
+            }
+            else
+            {
+                ShowError("Nem megfelelő email vagy jelszó.");
+                return;
+            }
+
 
         }
 

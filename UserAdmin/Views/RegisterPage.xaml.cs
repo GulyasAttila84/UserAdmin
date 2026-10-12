@@ -21,11 +21,11 @@ namespace UserAdmin.Views
     public partial class RegisterPage : Page
     {
         private readonly UserDbService _userDbService = new UserDbService();
-        
         public RegisterPage()
         {
             InitializeComponent();
         }
+
 
         private void Login_Click(object sender, RoutedEventArgs e)
         {
@@ -72,6 +72,5 @@ namespace UserAdmin.Views
 
             MessageBox.Show("Sikeres regisztráció.");
         }
-
     }
 }
