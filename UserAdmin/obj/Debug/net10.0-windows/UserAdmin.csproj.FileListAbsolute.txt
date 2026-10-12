@@ -28,3 +28,5 @@ F:\TANFOLYAM\C#Wpf\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\ref\UserAdmin.d
 F:\TANFOLYAM\C#Wpf\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\App.baml
 F:\TANFOLYAM\C#Wpf\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\Views\RegisterPage.g.cs
 F:\TANFOLYAM\C#Wpf\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\Views\RegisterPage.baml
+F:\TANFOLYAM\C#Wpf\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\Views\LoginPage.g.cs
+F:\TANFOLYAM\C#Wpf\UserAdmin\UserAdmin\obj\Debug\net10.0-windows\Views\LoginPage.baml
