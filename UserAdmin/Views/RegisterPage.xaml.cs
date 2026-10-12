@@ -27,6 +27,11 @@ namespace UserAdmin.Views
             InitializeComponent();
         }
 
+        private void Login_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new LoginPage());
+        }
+
         private void Register_Click(object sender, RoutedEventArgs e)
         {
             var username = UsernameBox.Text.Trim();
@@ -68,9 +73,5 @@ namespace UserAdmin.Views
             MessageBox.Show("Sikeres regisztráció.");
         }
 
-        private void Login_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }
